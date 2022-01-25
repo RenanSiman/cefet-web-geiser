@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "type" :"module",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RenanSiman/cefet-web-geiser.git"
@@ -21,7 +21,10 @@
   },
   "homepage": "https://github.com/RenanSiman/cefet-web-geiser#readme",
   "dependencies": {
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "handlebars": "^4.7.7",
+    "hbs": "^4.2.0",
+    "pug": "^3.0.2"
   },
   "devDependencies": {}
 }
