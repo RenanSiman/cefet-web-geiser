@@ -29,16 +29,16 @@
         <div class="media-list">
           <div class="media player-card-stacked">
             <div class="media-middle" href="#">
-              <img src="http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/ad/ad54ca6eab0beebbb107da9adce8fd894be54318_medium.jpg" class="avatar">
+              <img src="{{avatarmedium}}" class="avatar">
             </div>
             <div class="media-body">
-              <h3 class="media-heading"><a href="/jogador/76561198009353585/">fegemo</a></h3>
+              <h3 class="media-heading"><a href="/jogador/{{steamid}}/">{{personaname}}</a></h3>
               <dl class="dl-horizontal">
-                <dt>Nome real:</dt><dd>Flávio Coutinho</dd>
-                <dt>País:</dt><dd>BR</dd>
-                <dt>Perfil no steam:</dt><dd><a href="http://steamcommunity.com/id/fegemo/">@fegemo</a></dd>
-                <dt>Quantidade jogos:</dt><dd>99</dd>
-                <dt>Não jogados:</dt><dd>24</dd>
+                <dt>Nome real:</dt><dd>{{realname}}</dd>
+                <dt>País:</dt><dd>{{loccountrycode}}</dd>
+                <dt>Perfil no steam:</dt><dd><a href="{{profileurl}}">@{{personaname}}</a></dd>
+                <dt>Quantidade jogos:</dt><dd>{{players.game_count}}</dd>
+                <dt>Não jogados:</dt><dd>{{players.game_unplayed}}</dd>
               </dl>
             </div>
           </div>

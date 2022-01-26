@@ -22,6 +22,7 @@ readFile(PATH_PLAYERS, (err, data) => {
 readFile(PATH_GAMESBYPLAYERS, (err, data) => {
   if (err) throw err;
   db.gameByPlayers = JSON.parse(data);
+  console.log(db.gameByPlayers)
 });
 
 // configurar qual templating engine usar. Sugestão: hbs (handlebars)
